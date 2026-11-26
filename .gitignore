@@ -1,0 +1,119 @@
+# Environment variables (NEVER commit these - contains secrets!)
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+*.pyc
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+*.log
+local_settings.py
+
+# Database dumps (may contain sensitive data)
+*.sql
+*.dump
+*.backup
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# Build output
+client/dist/
+client/build/
+*.tsbuildinfo
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Coverage & Testing
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+.nox/
+
+# OS specific
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Security & Certificates (NEVER commit these!)
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.jks
+ssl/
+certs/
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*~
+.#*
+
+# Local development
+.local/
+*.local
+
+# Redis dumps
+dump.rdb
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Profiling
+*.prof
+*.lprof
+.prof/

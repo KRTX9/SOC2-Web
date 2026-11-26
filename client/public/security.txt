@@ -1,0 +1,47 @@
+Contact: mailto:security@secureauth.com
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://secureauth.com/.well-known/security.txt
+
+# Security Policy
+
+If you discover a security vulnerability, please report it to us via email.
+
+## Reporting Guidelines
+
+1. **DO NOT** publicly disclose the vulnerability before we've had a chance to address it
+2. Provide detailed steps to reproduce the issue
+3. Include the potential impact of the vulnerability
+4. Allow us reasonable time to respond (we aim for 48 hours)
+
+## Scope
+
+In scope:
+- Authentication bypass
+- SQL injection
+- Cross-site scripting (XSS)
+- Cross-site request forgery (CSRF)
+- Server-side request forgery (SSRF)
+- Remote code execution (RCE)
+- Authentication & authorization flaws
+- Session management issues
+- Sensitive data exposure
+
+Out of scope:
+- Social engineering attacks
+- Physical attacks
+- Denial of service attacks
+- Issues in third-party dependencies (please report directly to them)
+
+## Response Timeline
+
+- Initial response: Within 48 hours
+- Status update: Within 7 days
+- Resolution timeline: Depends on severity (critical: 7 days, high: 14 days, medium: 30 days)
+
+## Recognition
+
+We appreciate security researchers who report vulnerabilities responsibly.
+With your permission, we'll acknowledge your contribution in our security hall of fame.
+
+Thank you for helping us keep SecureAuth secure!
